@@ -18,7 +18,7 @@ const MainContent = () => {
       </div>
 
       <Switching>
-        <Route path="/" exact>
+        <Route exact path="/personalweb">
           <HomePage />
         </Route>
         <Route path="/about" exact>

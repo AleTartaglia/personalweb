@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState } from "react";
+import Sidebar from "./Components/Sidebar";
+import MainContent from "./Components/MainContent";
+import MenuIcon from "@material-ui/icons/Menu";
+import { IconButton } from "@material-ui/core";
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Sidebar navToggle={navToggle} />
+      <div className="ham-burger-menu">
+        <IconButton onClick={() => setNavToggle(!navToggle)}>
+          <MenuIcon />
+        </IconButton>
+      </div>
+      <MainContent />
     </div>
   );
 }

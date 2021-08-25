@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d82d7ddf.chunk.js",
+    "main.js.map": "/static/js/main.d82d7ddf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3e02073.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3e02073.js.map",
+    "static/js/2.9a19a247.chunk.js": "/static/js/2.9a19a247.chunk.js",
+    "static/js/2.9a19a247.chunk.js.map": "/static/js/2.9a19a247.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.9a19a247.chunk.js.LICENSE.txt": "/static/js/2.9a19a247.chunk.js.LICENSE.txt",
+    "static/media/avatar.19796fae.jpg": "/static/media/avatar.19796fae.jpg",
+    "static/media/banda.d102b76c.png": "/static/media/banda.d102b76c.png",
+    "static/media/bbsearch.8df55fa5.jpg": "/static/media/bbsearch.8df55fa5.jpg",
+    "static/media/gameOfLife.693ee82b.png": "/static/media/gameOfLife.693ee82b.png",
+    "static/media/mentorme.8e364701.png": "/static/media/mentorme.8e364701.png",
+    "static/media/omdb.55b7ba8c.png": "/static/media/omdb.55b7ba8c.png",
+    "static/media/pokemonApp.de37b260.png": "/static/media/pokemonApp.de37b260.png",
+    "static/media/resume.ce9da2a2.jpg": "/static/media/resume.ce9da2a2.jpg",
+    "static/media/weatherApp.de659aba.jpg": "/static/media/weatherApp.de659aba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3e02073.js",
+    "static/js/2.9a19a247.chunk.js",
+    "static/js/main.d82d7ddf.chunk.js"
+  ]
+}

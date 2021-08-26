@@ -5,9 +5,8 @@ import { NavigationStyled } from "../styles/index.js";
 import Brightness4Icon from "@material-ui/icons/Brightness4";
 import Switch from "@material-ui/core/Switch";
 
-const Navigation = () => {
+const Navigation = ({ navToggle, setNavToggle }) => {
   const [theme, setTheme] = useState("dark-theme");
-
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme]);
@@ -17,14 +16,6 @@ const Navigation = () => {
       setTheme("dark-theme");
     } else {
       setTheme("light-theme");
-    }
-  };
-
-  const sidebarToggle = () => {
-    const sidebarTag = document.getElementById("sidebarTag");
-    const hasClass = sidebarTag.classList.contains("nav-toggle");
-    if (hasClass) {
-      sidebarTag.classList.toggle("nav-toggle");
     }
   };
 
@@ -39,7 +30,7 @@ const Navigation = () => {
             to="/"
             activeClassName="active-class"
             exact
-            onClick={sidebarToggle}
+            onClick={() => setNavToggle(!navToggle)}
           >
             Home
           </NavLink>
@@ -49,7 +40,7 @@ const Navigation = () => {
             to="/about"
             activeClassName="active-class"
             exact
-            onClick={sidebarToggle}
+            onClick={() => setNavToggle(!navToggle)}
           >
             Sobre Mí
           </NavLink>
@@ -59,7 +50,7 @@ const Navigation = () => {
             to="/resume"
             activeClassName="active-class"
             exact
-            onClick={sidebarToggle}
+            onClick={() => setNavToggle(!navToggle)}
           >
             Experiencia
           </NavLink>
@@ -69,7 +60,7 @@ const Navigation = () => {
             to="/portfolio"
             activeClassName="active-class"
             exact
-            onClick={sidebarToggle}
+            onClick={() => setNavToggle(!navToggle)}
           >
             Portfolio
           </NavLink>
@@ -79,7 +70,7 @@ const Navigation = () => {
             to="/contact"
             activeClassName="active-class"
             exact
-            onClick={sidebarToggle}
+            onClick={() => setNavToggle(!navToggle)}
           >
             Contacto
           </NavLink>

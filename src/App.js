@@ -7,7 +7,7 @@ function App() {
   const [navToggle, setNavToggle] = useState(false);
   return (
     <div className="app">
-      <Sidebar navToggle={navToggle} />
+      <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
       <div className="ham-burger-menu">
         <IconButton onClick={() => setNavToggle(!navToggle)}>
           <MenuIcon />

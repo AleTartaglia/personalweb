@@ -10,7 +10,7 @@ const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
 
 const PortfoliosPage = () => {
   const [menuItem, setMenuItems] = useState(portfolios);
-  const [button, setButtons] = useState(allButtons);
+  const [button] = useState(allButtons);
 
   //filter data
   const filter = (button) => {

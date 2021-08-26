@@ -2,10 +2,10 @@ import React from "react";
 import GitHub from "@material-ui/icons/GitHub";
 import { MenuItemStyled } from "../styles/index";
 
-function Menu({ menuItem }) {
+function Menu({ portFolioItems }) {
   return (
     <MenuItemStyled>
-      {menuItem.map((item) => {
+      {portFolioItems.map((item) => {
         return (
           <div className="grid-item" key={item.id}>
             <div className="portfolio-content">

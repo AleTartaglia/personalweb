@@ -861,3 +861,13 @@ export const ButtonsStyled = styled.div`
   width: 70%;
   margin: 2.4rem auto;
 `;
+
+export const PaginationStyled = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    color: var(--font-light-color);
+    border: 1px solid var(--primary-color);
+  }
+`;

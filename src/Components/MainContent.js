@@ -21,6 +21,9 @@ const MainContent = () => {
         <Route exact path="/">
           <HomePage />
         </Route>
+        <Route exact path="/personalweb">
+          <HomePage />
+        </Route>
         <Route path="/about">
           <AboutPage />
         </Route>

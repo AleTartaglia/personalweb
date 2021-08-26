@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.js": "/personalweb/static/js/main.db1cd893.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.db1cd893.chunk.js.map",
-    "runtime-main.js": "/personalweb/static/js/runtime-main.22dd6c3d.js",
-    "runtime-main.js.map": "/personalweb/static/js/runtime-main.22dd6c3d.js.map",
-    "static/js/2.a80968da.chunk.js": "/personalweb/static/js/2.a80968da.chunk.js",
-    "static/js/2.a80968da.chunk.js.map": "/personalweb/static/js/2.a80968da.chunk.js.map",
-    "index.html": "/personalweb/index.html",
-    "static/js/2.a80968da.chunk.js.LICENSE.txt": "/personalweb/static/js/2.a80968da.chunk.js.LICENSE.txt",
-    "static/media/avatar.19796fae.jpg": "/personalweb/static/media/avatar.19796fae.jpg",
-    "static/media/banda.d102b76c.png": "/personalweb/static/media/banda.d102b76c.png",
-    "static/media/bbsearch.8df55fa5.jpg": "/personalweb/static/media/bbsearch.8df55fa5.jpg",
-    "static/media/gameOfLife.693ee82b.png": "/personalweb/static/media/gameOfLife.693ee82b.png",
-    "static/media/mentorme.8e364701.png": "/personalweb/static/media/mentorme.8e364701.png",
-    "static/media/omdb.55b7ba8c.png": "/personalweb/static/media/omdb.55b7ba8c.png",
-    "static/media/pokemonApp.de37b260.png": "/personalweb/static/media/pokemonApp.de37b260.png",
-    "static/media/resume.ce9da2a2.jpg": "/personalweb/static/media/resume.ce9da2a2.jpg",
-    "static/media/weatherApp.de659aba.jpg": "/personalweb/static/media/weatherApp.de659aba.jpg"
+    "main.js": "/personalweb/home/static/js/main.76f5041c.chunk.js",
+    "main.js.map": "/personalweb/home/static/js/main.76f5041c.chunk.js.map",
+    "runtime-main.js": "/personalweb/home/static/js/runtime-main.1109fd7e.js",
+    "runtime-main.js.map": "/personalweb/home/static/js/runtime-main.1109fd7e.js.map",
+    "static/js/2.d39f0b99.chunk.js": "/personalweb/home/static/js/2.d39f0b99.chunk.js",
+    "static/js/2.d39f0b99.chunk.js.map": "/personalweb/home/static/js/2.d39f0b99.chunk.js.map",
+    "index.html": "/personalweb/home/index.html",
+    "static/js/2.d39f0b99.chunk.js.LICENSE.txt": "/personalweb/home/static/js/2.d39f0b99.chunk.js.LICENSE.txt",
+    "static/media/avatar.19796fae.jpg": "/personalweb/home/static/media/avatar.19796fae.jpg",
+    "static/media/banda.d102b76c.png": "/personalweb/home/static/media/banda.d102b76c.png",
+    "static/media/bbsearch.8df55fa5.jpg": "/personalweb/home/static/media/bbsearch.8df55fa5.jpg",
+    "static/media/gameOfLife.693ee82b.png": "/personalweb/home/static/media/gameOfLife.693ee82b.png",
+    "static/media/mentorme.8e364701.png": "/personalweb/home/static/media/mentorme.8e364701.png",
+    "static/media/omdb.55b7ba8c.png": "/personalweb/home/static/media/omdb.55b7ba8c.png",
+    "static/media/pokemonApp.de37b260.png": "/personalweb/home/static/media/pokemonApp.de37b260.png",
+    "static/media/resume.ce9da2a2.jpg": "/personalweb/home/static/media/resume.ce9da2a2.jpg",
+    "static/media/weatherApp.de659aba.jpg": "/personalweb/home/static/media/weatherApp.de659aba.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.22dd6c3d.js",
-    "static/js/2.a80968da.chunk.js",
-    "static/js/main.db1cd893.chunk.js"
+    "static/js/runtime-main.1109fd7e.js",
+    "static/js/2.d39f0b99.chunk.js",
+    "static/js/main.76f5041c.chunk.js"
   ]
 }

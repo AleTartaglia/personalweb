@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/personalweb/static/js/main.63ccf188.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.63ccf188.chunk.js.map",
+    "main.js": "/personalweb/static/js/main.db1cd893.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.db1cd893.chunk.js.map",
     "runtime-main.js": "/personalweb/static/js/runtime-main.22dd6c3d.js",
     "runtime-main.js.map": "/personalweb/static/js/runtime-main.22dd6c3d.js.map",
-    "static/js/2.52a9993d.chunk.js": "/personalweb/static/js/2.52a9993d.chunk.js",
-    "static/js/2.52a9993d.chunk.js.map": "/personalweb/static/js/2.52a9993d.chunk.js.map",
+    "static/js/2.a80968da.chunk.js": "/personalweb/static/js/2.a80968da.chunk.js",
+    "static/js/2.a80968da.chunk.js.map": "/personalweb/static/js/2.a80968da.chunk.js.map",
     "index.html": "/personalweb/index.html",
-    "static/js/2.52a9993d.chunk.js.LICENSE.txt": "/personalweb/static/js/2.52a9993d.chunk.js.LICENSE.txt",
+    "static/js/2.a80968da.chunk.js.LICENSE.txt": "/personalweb/static/js/2.a80968da.chunk.js.LICENSE.txt",
     "static/media/avatar.19796fae.jpg": "/personalweb/static/media/avatar.19796fae.jpg",
     "static/media/banda.d102b76c.png": "/personalweb/static/media/banda.d102b76c.png",
     "static/media/bbsearch.8df55fa5.jpg": "/personalweb/static/media/bbsearch.8df55fa5.jpg",
@@ -20,7 +20,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.22dd6c3d.js",
-    "static/js/2.52a9993d.chunk.js",
-    "static/js/main.63ccf188.chunk.js"
+    "static/js/2.a80968da.chunk.js",
+    "static/js/main.db1cd893.chunk.js"
   ]
 }

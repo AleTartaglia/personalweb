@@ -18,19 +18,19 @@ const MainContent = () => {
       </div>
 
       <Switching>
-        <Route exact path="/personalweb">
+        <Route exact path="/">
           <HomePage />
         </Route>
-        <Route path="/about" exact>
+        <Route path="/about">
           <AboutPage />
         </Route>
-        <Route path="/resume" exact>
+        <Route path="/resume">
           <ResumePage />
         </Route>
-        <Route path="/portfolio" exact>
+        <Route path="/portfolio">
           <PortfoliosPage />
         </Route>
-        <Route path="/contact" exact>
+        <Route path="/contact">
           <ContactPage />
         </Route>
       </Switching>

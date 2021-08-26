@@ -451,7 +451,7 @@ export const ContactPageStyled = styled.section`
         input {
           border: 1px solid var(--border-color);
           outline: none;
-          background: transparent;
+          background: transparent !important;
           height: 50px;
           padding: 0 15px;
           width: 100%;

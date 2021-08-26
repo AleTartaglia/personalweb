@@ -13,8 +13,8 @@ const PortfoliosPage = () => {
   const [button] = useState(allButtons);
 
   //filter data
-  const filter = (button) => {
-    if (button === "All") {
+  const filter = (btn) => {
+    if (btn === "All") {
       setMenuItems(portfolios);
       return;
     }

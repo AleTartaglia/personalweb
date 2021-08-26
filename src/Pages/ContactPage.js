@@ -1,5 +1,5 @@
-import React from "react";
-
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { MainLayout, InnerLayout, ContactPageStyled } from "../styles/index.js";
 import Title from "../Components/Title";
 import PrimaryButton from "../Components/PrimaryButton";
@@ -14,6 +14,10 @@ const ContactPage = () => {
   const email = <EmailIcon />;
   const location = <LocationOnIcon />;
   const social = <GroupAddIcon />;
+
+  const [subjectValue, setSubjectValue] = useState("");
+  const [textValue, setTextValue] = useState("");
+
   return (
     <MainLayout>
       <Title title={"Contacto"} span={"Contacto"} />
@@ -34,7 +38,12 @@ const ContactPage = () => {
               </div>
               <div className="form-field">
                 <label htmlFor="subject">Ingresa tu asunto</label>
-                <input type="text" id="subject" />
+                <input
+                  type="text"
+                  id="subject"
+                  onChange={(e) => setSubjectValue(e.target.value)}
+                  value={subjectValue}
+                />
               </div>
               <div className="form-field">
                 <label htmlFor="text-area">Ingresa tu Mensaje*</label>
@@ -43,10 +52,17 @@ const ContactPage = () => {
                   id="textarea"
                   cols="30"
                   rows="10"
+                  onChange={(e) => setTextValue(e.target.value)}
+                  value={textValue}
                 ></textarea>
               </div>
               <div className="form-field f-button">
-                <PrimaryButton title={"Enviar Email"} mailto="true" />
+                <PrimaryButton
+                  title={"Enviar Email"}
+                  mailto="true"
+                  subjectValue={subjectValue}
+                  textValue={textValue}
+                />
               </div>
             </form>
           </div>

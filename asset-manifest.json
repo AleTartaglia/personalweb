@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/personalweb/static/js/main.a5689574.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.a5689574.chunk.js.map",
+    "main.js": "/personalweb/static/js/main.714e98b3.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.714e98b3.chunk.js.map",
     "runtime-main.js": "/personalweb/static/js/runtime-main.22dd6c3d.js",
     "runtime-main.js.map": "/personalweb/static/js/runtime-main.22dd6c3d.js.map",
-    "static/js/2.5c99bf06.chunk.js": "/personalweb/static/js/2.5c99bf06.chunk.js",
-    "static/js/2.5c99bf06.chunk.js.map": "/personalweb/static/js/2.5c99bf06.chunk.js.map",
+    "static/js/2.f5ec681c.chunk.js": "/personalweb/static/js/2.f5ec681c.chunk.js",
+    "static/js/2.f5ec681c.chunk.js.map": "/personalweb/static/js/2.f5ec681c.chunk.js.map",
     "index.html": "/personalweb/index.html",
-    "static/js/2.5c99bf06.chunk.js.LICENSE.txt": "/personalweb/static/js/2.5c99bf06.chunk.js.LICENSE.txt",
+    "static/js/2.f5ec681c.chunk.js.LICENSE.txt": "/personalweb/static/js/2.f5ec681c.chunk.js.LICENSE.txt",
     "static/media/AlejandrotartagliaCV.ef2d0a3c.pdf": "/personalweb/static/media/AlejandrotartagliaCV.ef2d0a3c.pdf",
     "static/media/avatar.19796fae.jpg": "/personalweb/static/media/avatar.19796fae.jpg",
     "static/media/banda.d102b76c.png": "/personalweb/static/media/banda.d102b76c.png",
@@ -21,7 +21,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.22dd6c3d.js",
-    "static/js/2.5c99bf06.chunk.js",
-    "static/js/main.a5689574.chunk.js"
+    "static/js/2.f5ec681c.chunk.js",
+    "static/js/main.714e98b3.chunk.js"
   ]
 }

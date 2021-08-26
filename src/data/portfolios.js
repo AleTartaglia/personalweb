@@ -63,46 +63,6 @@ const portfolios = [
     title: "Breaking bad Wiki",
     text: "Un buscador de personajes de Breaking Bad",
   },
-  {
-    id: 8,
-    category: "React JS",
-    image: bbsearch,
-    link1: "https://github.com/AleTartaglia/breakingbadwiki",
-    title: "Breaking bad Wiki",
-    text: "Un buscador de personajes de Breaking Bad",
-  },
-  {
-    id: 9,
-    category: "React JS",
-    image: bbsearch,
-    link1: "https://github.com/AleTartaglia/breakingbadwiki",
-    title: "Breaking bad Wiki",
-    text: "Un buscador de personajes de Breaking Bad",
-  },
-  {
-    id: 10,
-    category: "React JS",
-    image: bbsearch,
-    link1: "https://github.com/AleTartaglia/breakingbadwiki",
-    title: "Breaking bad Wiki",
-    text: "Un buscador de personajes de Breaking Bad",
-  },
-  {
-    id: 11,
-    category: "React JS",
-    image: bbsearch,
-    link1: "https://github.com/AleTartaglia/breakingbadwiki",
-    title: "Breaking bad Wiki",
-    text: "Un buscador de personajes de Breaking Bad",
-  },
-  {
-    id: 12,
-    category: "React JS",
-    image: bbsearch,
-    link1: "https://github.com/AleTartaglia/breakingbadwiki",
-    title: "Breaking bad Wiki",
-    text: "Un buscador de personajes de Breaking Bad",
-  },
 ];
 
 export default portfolios;

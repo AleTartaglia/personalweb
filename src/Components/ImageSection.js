@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { ImageSectionStyled } from "../styles/index.js";
 import PrimaryButton from "./PrimaryButton";
 import resume from "../img/resume.jpg";
+import Pdf from "../data/cv/AlejandrotartagliaCV.pdf";
 const ImageSection = () => {
   return (
     <ImageSectionStyled>
@@ -47,7 +49,9 @@ const ImageSection = () => {
             <p> FrontEnd Developer</p>
           </div>
         </div>
-        <PrimaryButton title={"Download Cv"} pdf="true" />
+        <Link to={Pdf} target="_blank" download>
+          <PrimaryButton title={"Descargar Cv"} />
+        </Link>
       </div>
     </ImageSectionStyled>
   );

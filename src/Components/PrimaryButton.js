@@ -1,6 +1,6 @@
 import React from "react";
 import { PrimaryButtonStyled } from "../styles/index.js";
-const PrimaryButton = ({ title, mailto, pdf }) => {
+const PrimaryButton = ({ title, mailto }) => {
   if (mailto) {
     return (
       <PrimaryButtonStyled>
@@ -13,7 +13,8 @@ const PrimaryButton = ({ title, mailto, pdf }) => {
         </a>
       </PrimaryButtonStyled>
     );
-  } else if (pdf) {
+  }
+  /* else if (pdf) {
     return (
       <PrimaryButtonStyled>
         <a
@@ -25,8 +26,8 @@ const PrimaryButton = ({ title, mailto, pdf }) => {
           {title}
         </a>
       </PrimaryButtonStyled>
-    );
-  }
+    ); */
+
   return <PrimaryButtonStyled>{title}</PrimaryButtonStyled>;
 };
 

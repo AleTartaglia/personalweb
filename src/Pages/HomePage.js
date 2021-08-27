@@ -15,7 +15,7 @@ const HomePage = () => {
           Hola, Yo soy <span>Alejandro Tartaglia</span>
         </h1>
         <p>
-          Bienvenid@ a mi página web. Soy un Desarrollador Front-End Jr. en
+          Bienvenid@ a mi página web. Soy un Desarrollador Front-End Jr en
           constante aprendizaje, avocado a incrementar y desarrollar mis
           habilidades técnicas y personales para lograr un mejor resultado.
         </p>

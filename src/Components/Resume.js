@@ -21,7 +21,7 @@ const Resume = () => {
             title={"Navent"}
             subTitle={"Bumeran Team"}
             text={
-              "Soy integrante del equipo de FrontEnd destinado al desarrollo y mantenimiento de los usuarios de tipo Empresa en los portales de Zonajobs y Bumeran en Argentina, Chile, Perú, México, Ecuador, Panamá y Venezuela. Utilizamos SCRUM y JIRA como metodologías ágiles."
+              "Soy integrante del equipo de Front-End destinado al desarrollo y mantenimiento de los usuarios de tipo Empresa en los portales de Zonajobs y Bumeran en Argentina, Chile, Perú, México, Ecuador, Panamá y Venezuela. Utilizamos SCRUM y JIRA como metodologías ágiles."
             }
           />
           <ResumeItem
@@ -50,7 +50,7 @@ const Resume = () => {
             title={"Full Stack Developer"}
             subTitle={"Plataforma 5"}
             text={
-              "Programa de capacitación intensivo con más de 800 hs de práctica enfocado en: React.Js | Hooks | React-Redux|Node.Js(Express) | Git | GitHub |Scrum |PostgreSQL | Sequelize |MongoDB ,entre otras, que me permitió adquirir y ampliar mis conocimientos en JavaScript y algunas de sus principales librerías y frameworks, como de la programación en general. "
+              "Programa de capacitación intensivo con más de 800 hs de práctica enfocado en: React.Js, Hooks, React-Redux, Node.Js(Express), Git, GitHub, Scrum, PostgreSQL, Sequelize,MongoDB, entre otras, que me permitió adquirir y ampliar mis conocimientos en JavaScript y algunas de sus principales librerías y frameworks, como de la programación en general. "
             }
           />
           <ResumeItem

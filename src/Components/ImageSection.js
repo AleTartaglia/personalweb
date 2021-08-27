@@ -26,7 +26,7 @@ const ImageSection = () => {
           <br />
           <br />
           Soy nativo en lenguaje español pero también intermedio en Inglés y he
-          comenzado con lecciones en italiano.
+          comenzado con lecciones de italiano.
           <br />
           <br />
           Poseo ciudanía y pasaporte Europeo.
@@ -42,11 +42,11 @@ const ImageSection = () => {
           </div>
           <div className="info">
             <p> Alejandro Tartaglia</p>
-            <p> 28</p>
-            <p> Argentina - Italia </p>
+            <p> 28 años</p>
+            <p> Argentina (e italiana) </p>
             <p> Español (nativo), Inglés (B1)</p>
             <p> Barcelona, Cataluña, España</p>
-            <p> FrontEnd Developer</p>
+            <p> Front End Developer</p>
           </div>
         </div>
         <Link to={Pdf} target="_blank" download>

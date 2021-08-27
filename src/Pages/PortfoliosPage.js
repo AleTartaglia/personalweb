@@ -7,14 +7,14 @@ import Menu from "../Components/Menu";
 import Button from "../Components/Button";
 
 const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
-
+console.log(allButtons);
 const PortfoliosPage = () => {
   const [menuItem, setMenuItems] = useState(portfolios);
-  const [button] = useState(allButtons);
+  const [btn] = useState(allButtons);
 
   //filter data
-  const filter = (btn) => {
-    if (btn === "All") {
+  const filter = (button) => {
+    if (button === "All") {
       setMenuItems(portfolios);
       return;
     }
@@ -40,7 +40,7 @@ const PortfoliosPage = () => {
     <MainLayout>
       <Title title={"Portfolio"} span={"portfolio"} />
       <InnerLayout>
-        <Button filter={filter} button={button} />
+        <Button filter={filter} button={btn} />
         <Menu portFolioItems={portFolioItems} />
       </InnerLayout>
       <PaginationStyled>

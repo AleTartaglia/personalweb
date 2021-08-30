@@ -6,6 +6,7 @@ import pokemonApp from "../img/portImages/pokemonApp.png";
 import weatherApp from "../img/portImages/weatherApp.jpg";
 import bbsearch from "../img/portImages/bbsearch.jpg";
 import firegram from "../img/portImages/firegram.jpg";
+import vanillaCalculator from "../img/portImages/vanillaCalculator.jpg";
 
 const portfolios = [
   {
@@ -71,6 +72,14 @@ const portfolios = [
     link1: "https://github.com/AleTartaglia/firegram",
     title: "Firegram",
     text: "Photo Gallery con firebase y custom Hooks",
+  },
+  {
+    id: 9,
+    category: "JavaScript",
+    image: vanillaCalculator,
+    link1: "https://github.com/AleTartaglia/vanillaCalculator",
+    title: "Vanilla Javascript Calculator",
+    text: "Una Calculadora en Vanilla Javascript",
   },
 ];
 

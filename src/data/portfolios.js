@@ -5,6 +5,7 @@ import omdb from "../img/portImages/omdb.png";
 import pokemonApp from "../img/portImages/pokemonApp.png";
 import weatherApp from "../img/portImages/weatherApp.jpg";
 import bbsearch from "../img/portImages/bbsearch.jpg";
+import firegram from "../img/portImages/firegram.jpg";
 
 const portfolios = [
   {
@@ -62,6 +63,14 @@ const portfolios = [
     link1: "https://github.com/AleTartaglia/breakingbadwiki",
     title: "Breaking bad Wiki",
     text: "Un buscador de personajes de Breaking Bad",
+  },
+  {
+    id: 8,
+    category: "Hooks",
+    image: firegram,
+    link1: "https://github.com/AleTartaglia/firegram",
+    title: "Firegram",
+    text: "Photo Gallery con firebase y custom Hooks",
   },
 ];
 

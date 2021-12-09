@@ -81,6 +81,14 @@ const portfolios = [
     title: "Vanilla Javascript Calculator",
     text: "Una Calculadora en Vanilla Javascript",
   },
+  {
+    id: 10,
+    category: "React JS",
+    image: vanillaCalculator,
+    link1: "https://github.com/AleTartaglia/memorygame",
+    title: "Memory Game",
+    text: "Elige una carta y adivina la otra",
+  },
 ];
 
 export default portfolios;

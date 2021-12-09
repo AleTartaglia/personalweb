@@ -7,6 +7,7 @@ import weatherApp from "../img/portImages/weatherApp.jpg";
 import bbsearch from "../img/portImages/bbsearch.jpg";
 import firegram from "../img/portImages/firegram.jpg";
 import vanillaCalculator from "../img/portImages/vanillaCalculator.jpg";
+import memorygame from "../img/portImages/memorygame.jpg";
 
 const portfolios = [
   {
@@ -84,7 +85,7 @@ const portfolios = [
   {
     id: 10,
     category: "React JS",
-    image: vanillaCalculator,
+    image: memorygame,
     link1: "https://github.com/AleTartaglia/memorygame",
     title: "Memory Game",
     text: "Elige una carta y adivina la otra",

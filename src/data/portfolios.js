@@ -8,6 +8,7 @@ import bbsearch from "../img/portImages/bbsearch.jpg";
 import firegram from "../img/portImages/firegram.jpg";
 import vanillaCalculator from "../img/portImages/vanillaCalculator.jpg";
 import memorygame from "../img/portImages/memorygame.jpg";
+import cosmojunkie from "../img/portImages/cosmojunkie.jpg";
 
 const portfolios = [
   {
@@ -89,6 +90,14 @@ const portfolios = [
     link1: "https://github.com/AleTartaglia/memorygame",
     title: "Memory Game",
     text: "Elige una carta y adivina la otra",
+  },
+  {
+    id: 11,
+    category: "CSS",
+    image: cosmojunkie,
+    link1: "https://github.com/AleTartaglia/cosmojunkie",
+    title: "Cosmo Junkie",
+    text: "practicando css mobile first, responsive",
   },
 ];
 

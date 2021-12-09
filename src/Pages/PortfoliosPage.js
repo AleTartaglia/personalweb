@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MainLayout, InnerLayout, PaginationStyled } from "../styles/index";
 import Pagination from "@material-ui/lab/Pagination";
 import Title from "../Components/Title";
@@ -7,7 +7,7 @@ import Menu from "../Components/Menu";
 import Button from "../Components/Button";
 
 const allButtons = ["All", ...new Set(portfolios.map((item) => item.category))];
-console.log(allButtons);
+
 const PortfoliosPage = () => {
   const [menuItem, setMenuItems] = useState(portfolios);
   const [btn] = useState(allButtons);
@@ -26,7 +26,7 @@ const PortfoliosPage = () => {
   //pagination
   const itemsPerPage = 6;
   const [page, setPage] = useState(1);
-  const [noOfPages] = useState(Math.ceil(portfolios.length / itemsPerPage));
+  const [noOfPages, setNoOfPages] = useState(1);
   const handlePageChange = (event, value) => {
     setPage(value);
   };
@@ -35,6 +35,10 @@ const PortfoliosPage = () => {
     (page - 1) * itemsPerPage,
     page * itemsPerPage
   );
+
+  useEffect(() => {
+    setNoOfPages(Math.ceil(menuItem.length / itemsPerPage));
+  }, [menuItem.length]);
 
   return (
     <MainLayout>

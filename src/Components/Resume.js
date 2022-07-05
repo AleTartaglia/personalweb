@@ -18,10 +18,10 @@ const Resume = () => {
         <div className="resume-content">
           <ResumeItem
             year={"2021 - present"}
-            title={"Navent"}
+            title={"Jobint"}
             subTitle={"Bumeran Team"}
             text={
-              "Soy integrante del equipo de Front-End destinado al desarrollo y mantenimiento de los usuarios de tipo Empresa en los portales de Zonajobs y Bumeran en Argentina, Chile, Perú, México, Ecuador, Panamá y Venezuela. Utilizamos SCRUM y JIRA como metodologías ágiles."
+              "Soy integrante del equipo de Frontend, orientado al desarrollo y mantenimiento de los usuarios de tipo Empresa en los portales de Zonajobs y Bumeran en Argentina, Chile, Perú, México, Ecuador, Panamá y Venezuela. Utilizamos diferentes tecnologías como React Js, Redux, Less, entre otras. También implementamos SCRUM como metodología ágil y sesiones de Pair Programming entre compañeros de trabajo"
             }
           />
           <ResumeItem
@@ -29,7 +29,7 @@ const Resume = () => {
             title={"Ministerio Público Fiscal"}
             subTitle={"Abogado en la UFIARM"}
             text={
-              "Integré equipos de investigación y realicé trabajos individuales que consistían en el ingreso,seguimiento, desarrollo, toma de decisiones y finalización de investigaciones judiciales."
+              "Formé parte de equipos de investigación y realicé trabajos individuales que consistían en el ingreso,seguimiento, desarrollo, toma de decisiones y finalización de investigaciones que me permitieron desarrollar habilidades de comunicación como así también aplicar mis aptitudes para la solución de un conflicto planteado."
             }
           />
           <ResumeItem
@@ -37,7 +37,7 @@ const Resume = () => {
             title={"Estudio Jurídico"}
             subTitle={"Fargosi & Asociados"}
             text={
-              "Formé parte de un equipo de abogados avocados a la resolución de conflictos legales. Tuve laposibilidad de ampliar mis conocimientos técnicos sobre varias áreas del Derecho, como así también desarrollar mis capacidades de comunicación y trato con clientes y colegas. "
+              "Integré un equipo de abogados avocados a la resolución de conflictos legales. Tuve laposibilidad de ampliar mis conocimientos técnicos sobre varias áreas del Derecho, como así también desarrollar mis capacidades de comunicación y trato con clientes y colegas. "
             }
           />
         </div>

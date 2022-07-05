@@ -17,6 +17,7 @@ function Skills() {
           <SkillItems title={"Hooks"} />
           <SkillItems title={"React-Redux"} />
           <SkillItems title={"Node Js (Express)"} />
+          <SkillItems title={"Restful API"} />
         </div>
       </InnerLayout>
       <InnerLayout>
@@ -26,7 +27,7 @@ function Skills() {
           <SkillItems title={"Styled Components"} />
           <SkillItems title={"SASS"} />
           <SkillItems title={"Figma"} />
-          <SkillItems title={"Material-UI"} />
+          <SkillItems title={"Flexbox"} />
           <SkillItems title={"React-Boostrap"} />
         </div>
       </InnerLayout>
@@ -45,7 +46,6 @@ function Skills() {
         <div className="skills lastSkill">
           <SkillItems title={"ESPAÑOL: nativo"} />
           <SkillItems title={"INGLES: B1"} />
-          <SkillItems title={"ITALIANO: basico"} />
         </div>
       </InnerLayout>
     </SkillsStyled>

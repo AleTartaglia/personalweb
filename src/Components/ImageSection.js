@@ -29,7 +29,6 @@ const ImageSection = () => {
           comenzado con lecciones de italiano.
           <br />
           <br />
-          Poseo ciudanía y pasaporte Europeo.
         </p>
         <div className="about-info">
           <div className="info-title">
@@ -42,10 +41,10 @@ const ImageSection = () => {
           </div>
           <div className="info">
             <p> Alejandro Tartaglia</p>
-            <p> 28 años</p>
+            <p> 29 años</p>
             <p> Argentina (e italiana) </p>
             <p> Español (nativo), Inglés (B1)</p>
-            <p> Barcelona, Cataluña, España</p>
+            <p> España</p>
             <p> Front End Developer</p>
           </div>
         </div>

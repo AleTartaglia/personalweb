@@ -77,11 +77,7 @@ const ContactPage = () => {
               icon={email}
               cont1={"alej.tartaglia@gmail.com"}
             />
-            <ContactItem
-              title={"Ubicación"}
-              icon={location}
-              cont1={"Barcelona, Cataluña, España"}
-            />
+            <ContactItem title={"Ubicación"} icon={location} cont1={"España"} />
           </div>
         </InnerLayout>
       </ContactPageStyled>

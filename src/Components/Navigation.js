@@ -94,7 +94,7 @@ const Navigation = ({ navToggle, setNavToggle }) => {
         </li>
       </ul>
       <footer className="footer">
-        <p> © 2021 Alejandro Tartaglia</p>
+        <p> © 2022 Alejandro Tartaglia</p>
       </footer>
     </NavigationStyled>
   );

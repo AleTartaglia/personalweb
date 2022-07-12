@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personalweb/static/js/main.886a1ee0.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.886a1ee0.chunk.js.map",
+    "main.js": "/personalweb/static/js/main.26cd1547.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.26cd1547.chunk.js.map",
     "runtime-main.js": "/personalweb/static/js/runtime-main.22dd6c3d.js",
     "runtime-main.js.map": "/personalweb/static/js/runtime-main.22dd6c3d.js.map",
     "static/js/2.f5a7e254.chunk.js": "/personalweb/static/js/2.f5a7e254.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/cosmojunkie.39a19a35.jpg": "/personalweb/static/media/cosmojunkie.39a19a35.jpg",
     "static/media/firegram.b712ed1c.jpg": "/personalweb/static/media/firegram.b712ed1c.jpg",
     "static/media/gameOfLife.693ee82b.png": "/personalweb/static/media/gameOfLife.693ee82b.png",
+    "static/media/gymapp.9ae75a0d.JPG": "/personalweb/static/media/gymapp.9ae75a0d.JPG",
     "static/media/memorygame.264a130e.jpg": "/personalweb/static/media/memorygame.264a130e.jpg",
     "static/media/mentorme.8e364701.png": "/personalweb/static/media/mentorme.8e364701.png",
     "static/media/omdb.55b7ba8c.png": "/personalweb/static/media/omdb.55b7ba8c.png",
@@ -27,6 +28,6 @@
   "entrypoints": [
     "static/js/runtime-main.22dd6c3d.js",
     "static/js/2.f5a7e254.chunk.js",
-    "static/js/main.886a1ee0.chunk.js"
+    "static/js/main.26cd1547.chunk.js"
   ]
 }

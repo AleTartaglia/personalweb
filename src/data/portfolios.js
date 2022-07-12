@@ -9,6 +9,8 @@ import firegram from "../img/portImages/firegram.jpg";
 import vanillaCalculator from "../img/portImages/vanillaCalculator.jpg";
 import memorygame from "../img/portImages/memorygame.jpg";
 import cosmojunkie from "../img/portImages/cosmojunkie.jpg";
+import pizzaApp from "../img/portImages/pizzaApp.JPG";
+import gymapp from "../img/portImages/gymapp.JPG";
 
 const portfolios = [
   {
@@ -98,6 +100,22 @@ const portfolios = [
     link1: "https://github.com/AleTartaglia/cosmojunkie",
     title: "Cosmo Junkie",
     text: "practicando css mobile first, responsive",
+  },
+  {
+    id: 12,
+    category: "React JS",
+    image: pizzaApp,
+    link1: "https://github.com/AleTartaglia/cosmojunkie",
+    title: "Pizza App",
+    text: "React Page Practica",
+  },
+  {
+    id: 13,
+    category: "React JS",
+    image: gymapp,
+    link1: "https://aletartaglia.github.io/appgym/",
+    title: "gym App",
+    text: "React  web practice from a yt tutorial",
   },
 ];
 

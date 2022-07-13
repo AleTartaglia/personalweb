@@ -1,5 +1,6 @@
 import React from "react";
 import GitHub from "@material-ui/icons/GitHub";
+import VisibilityIcon from "@material-ui/icons/Visibility";
 import { MenuItemStyled } from "../styles/index";
 
 function Menu({ portFolioItems }) {
@@ -17,6 +18,13 @@ function Menu({ portFolioItems }) {
                       <GitHub />
                     </a>
                   </li>
+                  {item.link2 && (
+                    <li>
+                      <a href={item.link2}>
+                        <VisibilityIcon />
+                      </a>
+                    </li>
+                  )}
                 </ul>
               </div>
             </div>

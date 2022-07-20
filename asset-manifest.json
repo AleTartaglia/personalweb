@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/personalweb/static/js/main.869c38ac.chunk.js",
-    "main.js.map": "/personalweb/static/js/main.869c38ac.chunk.js.map",
+    "main.js": "/personalweb/static/js/main.f164e1d3.chunk.js",
+    "main.js.map": "/personalweb/static/js/main.f164e1d3.chunk.js.map",
     "runtime-main.js": "/personalweb/static/js/runtime-main.22dd6c3d.js",
     "runtime-main.js.map": "/personalweb/static/js/runtime-main.22dd6c3d.js.map",
     "static/js/2.b2098746.chunk.js": "/personalweb/static/js/2.b2098746.chunk.js",
@@ -22,12 +22,13 @@
     "static/media/pizzaApp.489bfec1.JPG": "/personalweb/static/media/pizzaApp.489bfec1.JPG",
     "static/media/pokemonApp.de37b260.png": "/personalweb/static/media/pokemonApp.de37b260.png",
     "static/media/resume.ce9da2a2.jpg": "/personalweb/static/media/resume.ce9da2a2.jpg",
+    "static/media/rickMorty.82986a24.JPG": "/personalweb/static/media/rickMorty.82986a24.JPG",
     "static/media/vanillaCalculator.1c639168.jpg": "/personalweb/static/media/vanillaCalculator.1c639168.jpg",
     "static/media/weatherApp.de659aba.jpg": "/personalweb/static/media/weatherApp.de659aba.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.22dd6c3d.js",
     "static/js/2.b2098746.chunk.js",
-    "static/js/main.869c38ac.chunk.js"
+    "static/js/main.f164e1d3.chunk.js"
   ]
 }

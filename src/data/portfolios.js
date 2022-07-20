@@ -11,6 +11,7 @@ import memorygame from "../img/portImages/memorygame.jpg";
 import cosmojunkie from "../img/portImages/cosmojunkie.jpg";
 import pizzaApp from "../img/portImages/pizzaApp.JPG";
 import gymapp from "../img/portImages/gymapp.JPG";
+import rickMorty from "../img/portImages/rickMorty.JPG";
 
 const portfolios = [
   {
@@ -93,7 +94,8 @@ const portfolios = [
     id: 10,
     category: "React JS",
     image: memorygame,
-    link1: "https://github.com/AleTartaglia/memorygame",
+    link1: "https://github.com/AleTartaglia/memorymagic",
+    link2: "https://aletartaglia.github.io/memorymagic/",
     title: "Memory Game",
     text: "Elige una carta y adivina la otra",
   },
@@ -122,6 +124,15 @@ const portfolios = [
     link1: "https://aletartaglia.github.io/appgym/",
     title: "gym App",
     text: "React  web practice from a yt tutorial",
+  },
+  {
+    id: 14,
+    category: "React JS",
+    image: rickMorty,
+    link1: "https://github.com/AleTartaglia/rick-morty",
+    link2: "https://aletartaglia.github.io/rick-morty/",
+    title: "Buscador de Rick & Morty",
+    text: "Un buscador de personajes de Rick & Morty",
   },
 ];
 
